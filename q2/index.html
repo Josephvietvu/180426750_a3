@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta charset="viewport" content="width-device-width", initial-scale="1.0">
+    <title>FakeChimps Registration Form</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="http://fonts.googleapis.com/css?family=Merriweather">
+    <link href="http://fonts.googleapis.com/css?family=Proza+Libre">
+    <script type="text/javascript" src="js/validate.js"></script>
+  </head>
+
+  <body>
+
+    <div class="avatar">
+    <img src="img/logo-color.png" alt="Avatar" class="avatar">
+    </div>
+
+
+      <hr>
+      <form onsubmit="return validationForm();  "action="http://cp202-server.appspot.com/register"   method="post">
+
+        <div class="container">
+      <h1>Get Started with your account</h1>
+      <p>Find your people. Engage your customers. Build your brand. Do it all with FakeChimp's Marketing Platform.</p>
+      <hr>
+
+      <input type="hidden" name="student_id"id="student_id" value="180426750">
+
+      <div id="username">
+      <label for="username"><b>Username</b></label>
+        <input type="text" placeholder="Enter Username" name="username" id="username" required>
+      </div>
+
+      <div id="email">
+      <label for="email"<b>Email</b></label>
+        <input type="text" placeholder="Enter Email" name="email" id="email" required>
+      </div>
+
+      <div id="password">
+      <label for="password"><b>Password</b></label>
+        <input type="password" placeholder="Enter Password" name="password" id="password" required>
+      </div>
+
+        </div>
+
+
+        <div>
+      <p>By clicking the “Get Started!” button, you are creating a FakeChimp account. <a href="#">Terms & Privacy</a>.</p>
+        <button type="submit" class="registerbtn">Get started</button>
+      <hr>
+        </div>
+
+      <div class= "footer">
+          <footer>©2019 All Rights Reserved. FakeChimp® is a registered trademark of WLUCP202 Class.
+          </footer>
+
+      </form>
+
+  </body>
+</html>

@@ -1,0 +1,176 @@
+
+@import url(http://fonts.googleapis.com/css?family=Merriweather);
+
+
+
+h1 {
+  font-family: 'Merriweather', serif;
+  font-size: 34px;
+  word-spacing: -.2rem;
+  line-height: 1.1 ;
+  Font color: #241c15
+
+}
+
+body {
+  font-family: Arial;
+  font-size: 14px;
+  font-weight: bold
+}
+
+
+* {box-sizing: border-box}
+
+/* Add padding to containers */
+.container {
+  margin: auto;
+  padding: 10px;
+  width:70%;
+  align-items: center;
+}
+
+
+/*FakeChimp Icon */
+.avatar {
+  float: left;
+  margin: auto;
+  position: relative;
+  width: 120px;
+}
+
+.bwavatar {
+
+  margin:auto;
+  position: relative;
+  width: 120px;
+}
+
+
+
+/* Full-width input fields */
+input[type=text], input[type=file] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=file]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+/* Full-Width input fields Desc */
+
+textarea[type=text]:focus, textarea[type=description] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+textarea[type=text]:focus, textarea[type=description]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+input[type=text],input[type=country], textarea {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=country]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+
+/* Overwrite default styles of hr */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for the submit/register button */
+.registerbtn {
+  font-weight: bold;
+  background-color: white;
+  color: (36,28,21,.5);
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: (36,28,21,.5);
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity:1;
+  font-size: 14px;
+  background-color: #007c89
+}
+
+/* Add a blue text color to links */
+a {
+  color: dodgerblue;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+
+
+.footer {
+font-size: 11px;
+background-color:rgba(36,28,21,0.65);
+}
+
+@media screen and (max-width:1200px) {
+  .container {
+    float left;
+    width: 70%;
+}
+  .bwavatar{
+    display: none
+  }
+}
+
+
+@media screen and (max-width: 640px) {
+  .container {
+    float: none;
+    width:100%;
+}
+.bwavatar {
+display:run-in;
+float:none;
+width:120px:
+}
+  .avatar {
+    display:none;
+    float:none;
+
+  }
+
+}

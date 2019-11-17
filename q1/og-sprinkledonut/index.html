@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device width">
+    <meta name="description" content="Donut shop start-up website">
+    <meta name= "author" content="Joseph Vu">
+    <title>Joey's Donuts - Welcome </title>
+    <link rel="shortcut icon" type="image/jpg" href="../img/cream.jpg">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    <script src="http://wlu-cp202.appspot.com/CP202/Fall2019/shopping_cart_v1/cart.js" async></script>
+
+<!-- YOU MUST MODIFY THIS VALUE TO POINT TO YOUR ACTUAL CHECKOUT PAGE -->
+<script>localStorage.checkoutURL = '../checkout.html';</script>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div id="branding"
+        <<h1><h1>
+          <span class="hightlight">Joey's Donut Shop</span>
+        </h1>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../chocolatedonut/index.html">Chocolate Donut</a></li>
+            <li class="current"><a href="og-sprinkledonut/index.html">OG Sprinkle Donut</a></li>
+            <li><a href="../checkout.html">Shopping Cart</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section id="showcase">
+
+    </section>
+
+
+    <section id="newsletter">
+      <div class= "container">
+        <h1>Subscribe To Our Newsletter</h1>
+        <form>
+          <input type="email" placeholder="Enter Email">
+          <button type="submit" class="button_1">Subscribe</button>
+        </form>
+      </div>
+    </section>
+
+
+    <section id="main">
+      <div class="container">
+
+        <div class="box">
+
+        <div class="box">
+          <img src="../img/ogsprinkle.png" style="width:300px;height:300px">
+          <h3>OG Sprinkle Donut</h3>
+          <p>This is the OG Sprinkle Donut. Our best selling donut of all-time.</p>
+        </div>
+
+    </section>
+
+    <section id="poi">
+      <div class="container">
+      <form>
+        <button class= "button_2"onclick="clientAddItemToCart({prodName: 'OG Sprinkle Donut', prodDesc: 'Strawberry spread with Sprinkles', prodPrice: '5.00', prodQty: '3'})" >Buy Now</button>
+      </form>
+    </section>
+
+    <footer>
+
+    <p>Joey's Donut Shop, Copyright &#9400; 2019 </p>
+    </footer>
+
+  </body>
+</html>
