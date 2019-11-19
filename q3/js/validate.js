@@ -34,12 +34,12 @@ function validateCountry() {
 }
 
 function validateImage() {
-  var avatarImage = document.getElementById("avatarimage").value;
+  var avatarImage = document.getElementById("avatarImage").value;
 
   if (avatarImage == '') {
     alert("Empty file.");
 
-    document.getElementById("avatarimage").focus();
+    document.getElementById("avatarImage").focus();
 
     return false;
   }
